@@ -28,5 +28,11 @@ namespace MarconyEnamorado
             Ejercicio2 ejercicio2= new Ejercicio2();
             ejercicio2.ShowDialog();
         }
+
+        private void Ejercicio3button_Click(object sender, EventArgs e)
+        {
+            Ejercicio3 ejercicio3 = new Ejercicio3();
+            ejercicio3.ShowDialog();
+        }
     }
 }

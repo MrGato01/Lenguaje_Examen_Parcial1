@@ -39,7 +39,7 @@
             // Calculobutton
             // 
             this.Calculobutton.Location = new System.Drawing.Point(202, 73);
-            this.Calculobutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Calculobutton.Margin = new System.Windows.Forms.Padding(4);
             this.Calculobutton.Name = "Calculobutton";
             this.Calculobutton.Size = new System.Drawing.Size(123, 57);
             this.Calculobutton.TabIndex = 0;
@@ -52,7 +52,7 @@
             this.MeseslistBox.FormattingEnabled = true;
             this.MeseslistBox.ItemHeight = 18;
             this.MeseslistBox.Location = new System.Drawing.Point(13, 73);
-            this.MeseslistBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MeseslistBox.Margin = new System.Windows.Forms.Padding(4);
             this.MeseslistBox.Name = "MeseslistBox";
             this.MeseslistBox.Size = new System.Drawing.Size(178, 202);
             this.MeseslistBox.TabIndex = 1;
@@ -105,8 +105,9 @@
             this.Controls.Add(this.MeseslistBox);
             this.Controls.Add(this.Calculobutton);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ejercicio1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio1";
             this.Load += new System.EventHandler(this.Ejercicio1_Load);
             this.ResumeLayout(false);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.ProductoslistBox = new System.Windows.Forms.ListBox();
             this.Agregarbutton = new System.Windows.Forms.Button();
             this.CantidadtextBox = new System.Windows.Forms.TextBox();
@@ -41,10 +40,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.Limpiarbutton = new System.Windows.Forms.Button();
             this.VaciarListabutton = new System.Windows.Forms.Button();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // ProductoslistBox
@@ -159,10 +156,6 @@
             this.VaciarListabutton.UseVisualStyleBackColor = true;
             this.VaciarListabutton.Click += new System.EventHandler(this.VaciarListabutton_Click);
             // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -203,8 +196,8 @@
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ejercicio2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio2";
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,7 +217,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button Limpiarbutton;
         private System.Windows.Forms.Button VaciarListabutton;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
     }
